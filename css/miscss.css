@@ -1,0 +1,67 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-direction: space-between;
+}
+
+.purpura{
+    background: rgb(112, 199, 240);
+}
+.menucolor{
+    background-color: gris;
+}
+
+.gris{
+    background:#52BE80;
+}
+
+.alto{
+    height: 20em;
+}
+
+.altoInterno{
+    height: 20em;
+}
+
+.texto-justificado{
+    text-align: justify;
+    }
+
+.tamano-img{
+    height: 15rem !important;
+    width: auto !important;
+}
+
+
+.img-contenedor img {
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    width:100%;
+    }
+.img-contenedor:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    }
+.img-contenedor {/*Ancho y altura son modificables al requerimiento de cada uno*/
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    }
+
+.fondo{
+    background-image: url("../img/fondo1.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    }
+
+.interno{
+    opacity: 1;
+    }
+

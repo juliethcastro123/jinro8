@@ -1,0 +1,47 @@
+h1{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: black;
+    font-size: 40px;
+}
+.contenedor {
+    max-width: 1000px;
+    width: 100%;
+    height: 190px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor img{
+    cursor: pointer;
+}
+.agregar {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.estilo {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    transition: .3s ease-out all;
+}
+
+.estilo a:hover{
+    background: silver;
+    color: black;
+    text-decoration: none;
+}
+a {
+    text-decoration: none; 
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

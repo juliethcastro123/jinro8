@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-direction: space-between;
+}
+
+.purpura{
+    background: purple;
+}
+
+.alto{
+    height: 20em;
+}
+
+.texto-justificado{
+    text-align: justify;
+    }
+
+.tamano-img{
+    height: auto;
+    width: 10px;
+}
